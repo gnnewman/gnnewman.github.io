@@ -215,3 +215,22 @@ input[type=submit]:hover {
     display: block;
   }
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("cloud_background.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #FFFBF5;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
